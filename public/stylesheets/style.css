@@ -1,0 +1,72 @@
+.thumbnail {
+  margin: 4px;
+  cursor: pointer;
+}
+
+.lb-container {
+  position: relative;
+  padding: 4px;
+}
+#lightbox {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: .7;
+  width: 100%;
+  height: 100%;
+}
+
+#lb-prev {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 310px;
+  left: 0;
+}
+
+#lb-next {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 310px;
+  right: 0;
+}
+
+#lb-outer-container {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 628px;
+  height: 628px;
+}
+
+#lb-image {
+  width: 620px; 
+  height: 620px;
+}
+
+.lb-dataContainer {
+  margin-top: 15px;
+}
+.lb-data {
+  color: #ccc;   
+}
+.lb-closeContainer {
+  float: right;
+  font-size: 40px;
+  position: relative;
+  top: -16px;
+}
