@@ -152,28 +152,6 @@
   
   function closeEventHandler(e) {
     e.preventDefault();
-    /*
-    var overlay = document.getElementById('overlay');    
-    var lightbox =  document.getElementById('lightbox');
-    
-    // hide overlay and lightbox
-    fadeOut(overlay);
-    fadeOut(lightbox);
-
-    removeDom();
-    
-    document.removeEventListener('keyup', keyupEventHandler, false);
-    
-    //remove event listeners
-    var nextLink = document.getElementById('lb-next');
-    nextLink.removeEventListener('click', nextEventHandler, false);
-    
-    var prevLink = document.getElementById('lb-prev');
-    prevLink.removeEventListener('click', prevEventHandler, false);
-    
-    var closeLink = document.getElementById('lb-close');
-    closeLink.removeEventListener('click', closeEventHandler, false);
-    */
     end();
   }
   
