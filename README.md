@@ -1,5 +1,7 @@
 # mylightbox
 
+To start application
+
 ```shell
 npm install
 node ./bin/www
